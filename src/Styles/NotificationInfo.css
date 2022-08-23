@@ -1,0 +1,26 @@
+.notificationInfo__container {
+	background-color: white;
+	width: 50vw;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.notificationInfo__container > p {
+	padding: 10px 0 10px 0;
+}
+.notificationInfo__Button {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.notificationInfo__container > .notificationInfo__Button > button {
+	text-transform: inherit !important;
+	color: white;
+	margin-left: 10px;
+}
+.notificationInfo__Button > button:first-child {
+	background-color: #ef613d;
+}
+.notificationInfo__Button > button:last-child {
+	background-color: #0a8d48 !important;
+}

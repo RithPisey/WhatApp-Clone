@@ -1,0 +1,31 @@
+.chat__message {
+	position: relative;
+	font-size: 16px;
+	padding: 15px;
+	background-color: white;
+	border-radius: 10px;
+	width: fit-content;
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+.chat__sender {
+	margin-left: auto;
+	background-color: #dcf8c6;
+}
+
+.chat__name {
+	/* position: relative; */
+	/* top: -5px; */
+	font-weight: 800;
+	font-size: xx-small;
+	color: orange;
+	margin-top: 10px;
+}
+
+.chat__timeStamp {
+	margin-left: 10px;
+	font-size: xx-small;
+}
